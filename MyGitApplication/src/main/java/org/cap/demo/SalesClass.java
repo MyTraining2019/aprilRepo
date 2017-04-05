@@ -15,4 +15,9 @@ public class SalesClass {
 		System.out.println("My Details:");
 	}
 	
+	
+	public void discard(){
+		System.out.println("Discard");
+	}
+	
 }
