@@ -7,9 +7,9 @@ public class SalesClass {
 	public void display(){
 		System.out.println("Sales Class Display Method");
 		int sum=0;
-		for(int i=0;i<mydata.length;i++){
-			sum+=mydata[i];
-			System.out.println(mydata[i]);
+		for(int num:mydata){
+			sum+=num;
+			System.out.println(num);
 		}
 		
 		System.out.println("My Sum Value is:" + sum);
