@@ -11,6 +11,8 @@ public class SalesClass {
 			sum+=mydata[i];
 			System.out.println(mydata[i]);
 		}
+		
+		System.out.println("My Sum Value is:" + sum);
 	}
 	
 }
