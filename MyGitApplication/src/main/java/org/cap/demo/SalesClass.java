@@ -6,13 +6,13 @@ public class SalesClass {
 	
 	public void display(){
 		System.out.println("Sales Class Display Method");
-		int sum=0;
+		//int sum=0;
 		for(int num:mydata){
-			sum+=num;
+			//sum+=num;
 			System.out.println(num);
 		}
 		
-		System.out.println("Sum" + sum);
+		//System.out.println("Sum" + sum);
 	}
 	
 }
