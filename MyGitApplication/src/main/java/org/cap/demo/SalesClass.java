@@ -12,7 +12,7 @@ public class SalesClass {
 			System.out.println(num);
 		}
 		
-		System.out.println("My Sum Value is:" + sum);
+		System.out.println("print Sum:" + sum);
 	}
 	
 }
