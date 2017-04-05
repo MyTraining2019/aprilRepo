@@ -6,9 +6,11 @@ public class SalesClass {
 	
 	public void display(){
 		System.out.println("Sales Class Display Method");
-		
-		for(int i=0;i<mydata.length;i++)
+		int sum=0;
+		for(int i=0;i<mydata.length;i++){
+			sum+=mydata[i];
 			System.out.println(mydata[i]);
+		}
 	}
 	
 }
