@@ -3,4 +3,16 @@
   <groupId>org.cap.demo</groupId>
   <artifactId>MyGitApplication</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <build>
+    
+    <!-- To use the plugin goals in your POM or parent POM -->
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>2.7.1</version>
+      </plugin>
+   
+    </plugins>
+  </build>
 </project>
