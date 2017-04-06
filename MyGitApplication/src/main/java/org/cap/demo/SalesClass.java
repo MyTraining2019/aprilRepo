@@ -12,14 +12,12 @@ public class SalesClass {
 			System.out.println(mydata[i]);
 		}
 		
-		System.out.println("My Details:");
+		System.out.println("sum:" + sum);
 	}
 	
-	
-	public void discard(){
-		System.out.println("Discard");
-	for(int i=0;i<100;i++)
-		System.out.println(i);
+		
+	public void get_garbage(){
+		System.out.println("Garbage Collected");
 	}
 	
 }
