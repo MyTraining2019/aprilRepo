@@ -15,9 +15,9 @@ public class SalesClass {
 		System.out.println("sum:" + sum);
 	}
 	
-	
-	public void discard(){
-		System.out.println("Discard");
+		
+	public void get_garbage(){
+		System.out.println("Garbage Collected");
 	}
 	
 }
