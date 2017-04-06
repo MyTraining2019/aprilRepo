@@ -18,6 +18,8 @@ public class SalesClass {
 	
 	public void discard(){
 		System.out.println("Discard");
+	for(int i=0;i<100;i++)
+		System.out.println(i);
 	}
 	
 }
